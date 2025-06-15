@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 import './App.css';
 
-const API_BASE_URL = 'postgresql://postgres:zcPqEVXKhIMfnphKAbvMQLMVXApvHORU@mainline.proxy.rlwy.net:49724/railway';
+const API_BASE_URL = 'https://dot-backend-production.up.railway.app/api';
 
 function App() {
   const [rooms, setRooms] = useState([]);
